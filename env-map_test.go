@@ -34,6 +34,7 @@ func TestGet(t *testing.T) {
 			},
 			func() {
 				os.Setenv("foo", "bar")
+				os.Setenv("baz", "qux")
 			},
 		},
 	}
